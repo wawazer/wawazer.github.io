@@ -181,7 +181,7 @@ a.grid_item:hover figure img {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
-}
+} */
 
 .animated a.grid_item .info {
     animation: color 0.7s ease-in-out;
@@ -208,13 +208,14 @@ a.grid_item:hover figure img {
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-} */
+}
 
 
 /*-------- 3.6 Block reveal --------*/
 
 
-/* .animated .block-reveal {
+/* 
+.animated .block-reveal {
     height: auto;
     overflow: hidden;
     position: relative;
@@ -517,3 +518,298 @@ a.grid_item:hover figure img {
 
 
 /**end slider**/
+
+
+/*------------
+Product Css
+------------------------------*/
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.porduct-area .single-product-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.single-product-wrap {
+    margin-top: 30px;
+}
+
+.single-product-wrap:hover .product-action {
+    opacity: 1;
+    -ms-filter: 1;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.single-product-wrap:hover .product-image>a {
+    border-bottom: 3px solid #ff5151;
+}
+
+.single-product-wrap:hover a:before {
+    opacity: 1;
+    -ms-filter: 1;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image>a {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.product-image>a img {
+    width: 100%;
+}
+
+.product-image .product-action {
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    width: 100%;
+    opacity: 0;
+    -ms-filter: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.product-image .product-action .wishlist,
+.product-image .product-action .add-to-cart,
+.product-image .product-action .quick-view {
+    background: #ddd none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 44px;
+    width: 40px;
+    color: #6f6f6f;
+}
+
+.product-image .product-action .wishlist:hover,
+.product-image .product-action .add-to-cart:hover,
+.product-image .product-action .quick-view:hover {
+    background: #ff5151;
+    color: #ffffff;
+}
+
+.product-image span.label {
+    position: absolute;
+    top: 0;
+    background: #ff5151;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2px 15px;
+    border-radius: 15px;
+}
+
+.product-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.product-content .price-box {
+    font-size: 14px;
+}
+
+.product-content .price-box span {
+    margin: 0 8px;
+}
+
+.product-content .price-box .new-price {
+    color: #ff5151;
+}
+
+.product-content .price-box .old-price {
+    text-decoration: line-through;
+}
+
+.product-active-lg-4 {
+    overflow: hidden;
+}
+
+.product-active-lg-4 .slick-arrow,
+.product-two-row-4 .slick-arrow {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    right: auto;
+    background: #ddd;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.product-active-lg-4 .slick-arrow.slick-next,
+.product-two-row-4 .slick-arrow.slick-next {
+    right: 15px;
+    left: auto;
+}
+
+.product-active-lg-4:hover .slick-arrow,
+.product-two-row-4:hover .slick-arrow {
+    visibility: visible;
+    opacity: 1;
+}
+
+.product-active-lg-4:hover .slick-arrow.slick-prev,
+.product-two-row-4:hover .slick-arrow.slick-prev {
+    left: 0px;
+}
+
+.product-active-lg-4:hover .slick-arrow.slick-next,
+.product-two-row-4:hover .slick-arrow.slick-next {
+    right: 0px;
+}
+
+
+/*--
+- Section Title
+----------------------------*/
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: -5px 0 0 0;
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 479px) {
+    .section-title h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+.section-title h2 span {
+    color: #ff5151;
+}
+
+.section-title p {
+    max-width: 640px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.section-title.text-center p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title.text-right p {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .section-title {
+        margin-bottom: 30px;
+    }
+}
+
+.title-2 h4 {
+    color: #ff5151;
+    font-weight: 600;
+}
+
+.title-2 h3 {
+    color: #ff5151;
+    font-weight: 600;
+}
+
+.section-pb {
+    padding-bottom: 90px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-pb {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-pb {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section-pb {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .section-pb {
+        padding-bottom: 60px;
+    }
+}
+
+.section-pb-60 {
+    padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-pb-60 {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-pb-60 {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section-pb-60 {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .section-pb-60 {
+        padding-bottom: 30px;
+    }
+}
+
+.section-pb-30 {
+    padding-bottom: 30px;
+}
+
+.bg-image {
+    background-size: cover;
+}
+
+
+/*--
