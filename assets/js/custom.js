@@ -86,3 +86,27 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+/*--------------
+		COUNTER BUAT KUANTITI
+	--------------*/
+var counter = $('.counter'),
+    leftControl = counter.children('.control.left'),
+    rightControl = counter.children('.control.right');
+
+leftControl.bind('click', counter_substract);
+rightControl.bind('click', counter_add);
+
+function counter_substract() {
+    var container = $(this).siblings('.value').children('h5'),
+        currentValue = parseInt(container.text());
+
+    if (currentValue > 1) container.text(--currentValue);
+}
+
+function counter_add() {
+    var container = $(this).siblings('.value').children('h5'),
+        currentValue = parseInt(container.text());
+
+    if (currentValue < 100) container.text(++currentValue);
+}
