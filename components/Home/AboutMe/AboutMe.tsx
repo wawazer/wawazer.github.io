@@ -15,7 +15,7 @@ export default function AboutMe(props) {
       {/* // ? 0.1 About Me */}
       <div
         className="flex flex-col space-y-8 px-4 sm:px-0 w-full sm:w-[500px] 
-        md:w-[700px] lg:w-[900px] "
+        md:w-[700px] lg:w-[990px] "
       >
         <div className="flex flex-row items-center ">
           <div className="flex flex-row  items-center mr-4">
@@ -43,9 +43,11 @@ export default function AboutMe(props) {
                 Hello! My name is Muhammad Zen Wawazer, I consider myself a
                 detail-oriented, hardworking person who&apos;s willing to learn
                 at every step pg the way
+
+                
               </span>
             </div>
-            {/* <div className="font-Header ">
+            <div className="font-Header ">
               <span className="text-gray-400 ">
                 Since pursuing my engineering degree, my career has taken me
                 through diverse industries, allowing me to refine my expertise
@@ -59,8 +61,8 @@ export default function AboutMe(props) {
                 , my passion for web3 and continuous learning drives me to make
                 a positive impact and advance technology.
               </span>
-            </div> */}
-            {/* <div className="font-Header tracking-wide">
+            </div>
+            <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at
                 <span className="text-AAsecondary"> a huge manufacturing company</span>,
@@ -71,7 +73,7 @@ export default function AboutMe(props) {
                 Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
                 <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
               </span>
-            </div> */}
+            </div>
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
