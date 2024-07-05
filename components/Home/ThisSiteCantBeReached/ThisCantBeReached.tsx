@@ -192,7 +192,7 @@ export default function ThisCantBeReached() {
             be reached
           </span>
           <span className="text-gray-500 text-md">
-            <span className="font-bold">wawazer.github.com </span>
+            <span className="font-bold">MUHAMMAD ZEN WAWAZER CV </span>
             unexpectedly{" "}
             {ShowText ? (
               <motion.span
