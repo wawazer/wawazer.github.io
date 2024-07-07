@@ -24,6 +24,8 @@ const IconClickableWithAnimation = (props) => {
     </motion.div>
   );
 };
+
+{/*ini buat sosial media icon disamping*/}
 export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
   return (
     <>
@@ -43,17 +45,17 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Github Icon */}
             <IconClickableWithAnimation
               Icon={GithubIcon}
-              href={"https://github.com/hktitof"}
+              href={"https://github.com/wawazer"}
             />
             {/* Linkedin icon */}
             <IconClickableWithAnimation
               Icon={LinkedinIcon}
-              href={"https://www.linkedin.com/in/abdellatif-anaflous/"}
+              href={"https://www.linkedin.com/in/muhammadzenwawazer/"}
             />
             {/* Instagram Icon */}
             <IconClickableWithAnimation
               Icon={InstagramIcon}
-              href={"https://www.instagram.com/xredme/"}
+              href={"https://www.instagram.com/zenwawazer/"}
             />
             {/* Youtube Icon */}
           </div>
@@ -102,3 +104,4 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
     </>
   );
 }
+
