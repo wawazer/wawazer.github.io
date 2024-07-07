@@ -17,8 +17,8 @@ export default function RsBedah() {
       keywords: ["Hardware"],
     },
     {
-      text: "Maintenance social media",
-      keywords: ["social media"],
+      text: "Database administrator ",
+      keywords: ["Database"],
     },
   ];
 

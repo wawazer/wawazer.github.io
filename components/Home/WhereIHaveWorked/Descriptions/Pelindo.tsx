@@ -5,20 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Pelindo() {
   const tasks = [
     {
-      text: "Create a website, PHP, Illustrator, Digital Marketing",
-      keywords: ["PHP", "Illustrator", "Digital Marketing"],
+      text: "Arranging the layout, colors and typography of the interface display;",
+      keywords: ["layout", "colors", "interface display"],
     },
     {
-      text: "Designing and creating company visual requirements (flyer, Company Profile, etc.)",
-      keywords: ["flyer", "Company Profile", "visual requirements"],
+      text: "Designing and creating company visual requirements (flyer, infograph, logo etc.)",
+      keywords: ["flyer", "infograph", "visual requirements","logo"],
     },
     {
-      text: "Maintenance a Hardware.",
-      keywords: ["Hardware"],
+      text: "Researching user UX problems in applications;",
+      keywords: ["UX", "Researching"],
     },
     {
-      text: "Maintenance social media",
-      keywords: ["social media"],
+      text: "Implemented accessibility standards such as WCAG 20 to ensure maximum user experience across all devices",
+      keywords: ["user experience", "WCAG 20"],
     },
   ];
 
