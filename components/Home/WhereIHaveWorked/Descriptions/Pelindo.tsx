@@ -20,6 +20,22 @@ export default function Pelindo() {
       text: "Implemented accessibility standards such as WCAG 20 to ensure maximum user experience across all devices",
       keywords: ["user experience", "WCAG 20"],
     },
+    {
+      text: "Developed prototypes and mockups for new features, enhancing UX and UI design",
+      keywords: ["UX", "UI", "Developed","mockups"],
+    },
+    {
+      text: "Supported the implementation of company applications",
+      keywords: ["implementation"] ,
+    },
+    {
+      text: "Created multiple pages for mobile and desktop devices using HTML and CSS, as well as third-party libraries such as typescript, Angular and React the implementation of company applications",
+      keywords: ["HTML","CSS", "Angular","typescript", "React"] ,
+    },
+    {
+      text: "Employed version control systems such as Git and Subversion to collaborate on projects and manage code",
+      keywords: ["Git"],
+    }
   ];
 
   return (
