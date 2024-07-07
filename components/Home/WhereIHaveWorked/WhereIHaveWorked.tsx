@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import FeverTokens from "./Descriptions/FeverTokens";
-import IdealFresh from "./Descriptions/IdealFresh";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
+import Upn from "./Descriptions/Upn";
+import Distrive from "./Descriptions/DIstrive";
+import Freelancer from "./Descriptions/Freelancer";
 import Fantasia from "./Descriptions/Fantasia";
 import SuperBerry from "./Descriptions/SuperBerry";
 import Pelindo from "./Descriptions/Pelindo";
@@ -18,12 +18,12 @@ export default function WhereIHaveWorked() {
         return <Pelindo />;
       case "RsBedah":
         return <RsBedah />;
-      case "FeverTokens":
-        return <FeverTokens />;
-      case "IdealFresh":
-        return <IdealFresh />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
+      case "Upn":
+        return <Upn />;
+      case "Distrive":
+        return <Distrive />;
+      case "Freelancer":
+        return <Freelancer />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("Pelindo");
@@ -153,7 +153,7 @@ const CompaniesBar = (props) => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="Manyar Hospital"
-            BarPosition={46}
+            BarPosition={39}
             BarAvobePosition={257}
             DescriptionJob="RsBedah"
             CompanyNameBackgroundColorGreen={[
@@ -168,10 +168,10 @@ const CompaniesBar = (props) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="IdealFresh"
-            BarPosition={89}
+            CompanyName="Distrive"
+            BarPosition={80}
             BarAvobePosition={385}
-            DescriptionJob="IdealFresh"
+            DescriptionJob="Distrive"
             CompanyNameBackgroundColorGreen={[
               false,
               false,
@@ -184,10 +184,10 @@ const CompaniesBar = (props) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="SuperBerry"
-            BarPosition={120}
+            CompanyName="UPN Veteran Jatim"
+            BarPosition={125}
             BarAvobePosition={513}
-            DescriptionJob="SuperBerry"
+            DescriptionJob="Upn"
             CompanyNameBackgroundColorGreen={[
               false,
               false,
@@ -200,10 +200,10 @@ const CompaniesBar = (props) => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-            CompanyName="AA Management"
-            BarPosition={208}
+            CompanyName="Freelancer"
+            BarPosition={169}
             BarAvobePosition={641}
-            DescriptionJob="Advanced Agro Management"
+            DescriptionJob="Freelancer"
             CompanyNameBackgroundColorGreen={[
               false,
               false,

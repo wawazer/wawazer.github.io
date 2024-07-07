@@ -1,19 +1,20 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function FeverTokens() {
+
+export default function Distrive() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Created visual elements such as logos, icons, and graphics that improved the overall aesthetic of the company's online presence.",
+      keywords: ["logos","icons","graphics"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Arranging the layout, colors and typography of the interface display;",
+      keywords: ["layout", "colors", "interface display"],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text:  "As Consultans Designs into a Polished Frontend  while ensuring that the UX and UI design are maintained",
+      keywords: ["Consultans", "Frontend"],
     },
   ];
   return (
@@ -22,25 +23,25 @@ export default function FeverTokens() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            User Interface & Assets Creator <span className="text-AAsecondary">@ Distrive</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">June 2021 - Present</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            onClick={() => window.open("https:///www.distrive.id", "_blank")}
           >
-            www.fevertokens.io
+            www.distrive.id
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
-          {/* Tasks Description 1 */}
-          {tasks.map((item, index) => {
+            {/* Tasks Description 1 */}
+            {tasks.map((item, index) => {
             return (
               <div key={index} className="flex flex-row space-x-2">
-                <ArrowIcon className={" h-5 w-4 text-AAsecondary flex-none"} />
+                <ArrowIcon className={"h-5 w-4 text-AAsecondary flex-none"} />
                 <span
                   className="text-gray-500 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{

@@ -5,12 +5,8 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function RsBedah() {
   const tasks = [
     {
-      text: "Create a website, PHP, Illustrator, Digital Marketing",
-      keywords: ["PHP", "Illustrator", "Digital Marketing"],
-    },
-    {
-      text: "Designing and creating company visual requirements (flyer, Company Profile, etc.)",
-      keywords: ["flyer", "Company Profile", "visual requirements"],
+      text: " Designed a range of digital assets for a medical company, contributing to a successful re-branding ",
+      keywords: ["digital","branding"],
     },
     {
       text: "Maintenance a Hardware.",
@@ -19,6 +15,14 @@ export default function RsBedah() {
     {
       text: "Database administrator ",
       keywords: ["Database"],
+    },
+    {
+      text: "Designed and developed marketing materials such as brochures, flyers, and email campaigns that helped increase brand awareness",
+      keywords: ["Designed", "brochures","flyers"],
+    },
+    {
+      text: "Created visual elements such as logos, icons, and graphics that improved the overall aesthetic of the company's online presence.",
+      keywords: ["logos","icons"],
     },
   ];
 
