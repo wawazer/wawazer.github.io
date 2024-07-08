@@ -44,7 +44,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://www.ens.vision" target={"_blank"} rel="noreferrer">
+              <a href="" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -52,7 +52,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/distrive.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/distrive.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -72,35 +72,22 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">ENS Vision </span>
-                <a href="https://ens.vision" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">Distrive Assets </span>
+                <a href="https://distrive.id" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    ENS names Marketplace
+                    Distrive Startup
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
-                  At <span className="text-AAsecondary">ENS Vision</span>, I played a crucial role in developing web3
-                  components for their <span className="text-AAsecondary">web3 application</span> using Next.js and web3
-                  libraries. Our focus was on integrating new features and improving the user interface. One notable
-                  achievement was the release of NameWrapper with <span className="text-AAsecondary">ERC72</span>{" "}
-                  support, enabling users to create <span className="text-AAsecondary">subdomains</span>. This showcased
-                  our commitment to delivering innovative solutions.
+                  At <span className="text-AAsecondary">Distrive</span>, I played in developing assets
+                  components for their <span className="text-AAsecondary">web and mobile applications</span>. Our focus was on integrating new features and improving the user interface. 
+                  
                 </p>
               </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              >
-                <span className="pr-4 z-10">ENS domains</span>
-                <span className="pr-4 z-10">ENS names</span>
-                <span className="pr-4 z-10">web3</span>
-                <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span>
-              </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.ens.vision/" target={"_blank"} rel="noreferrer">
+                <a href="https://distrive.id/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -116,13 +103,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://ubiquitous-bublanina-da84ec.netlify.app/"} target="_blank" rel="noreferrer">
+              <a href={"https://ptosm.pelindo.co.id"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/ptosm.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -133,7 +120,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/ptosm.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -142,10 +129,10 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://ypredict.ai/" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-base">Application Harbour</span>
+                <a href="https://ptosm.pelindo.co.id" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    YPredict - v1
+                    PTOS-M
                   </span>
                 </a>
               </div>
