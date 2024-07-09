@@ -310,7 +310,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+              <a href="https://rsmmcsby.co.id" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -318,11 +318,11 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
+              {/* <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
                 <span className="text-AAsecondary text-xl">In initiation...</span>
-              </div>
+              </div> */}
 
-              <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/rsmmc.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -333,7 +333,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/rsmmc.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
@@ -346,32 +346,24 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+                <a href="https://rsmmcsby.co.id" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Haircut Appointment
+                   Web Profile RS MMC Surabaya
                   </span>
+                  
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  It&apos; a barber shop <span className="text-AAsecondary">appointment scheduling</span> & management
+                This <span className="text-AAsecondary">hospital</span> website serves as an information and service platform for patients, their families, and the general public. 
+                  {/* It&apos; a barber shop <span className="text-AAsecondary">appointment scheduling</span> & management
                   software it provides <span className="text-AAsecondary">online scheduling</span>, appointment
                   reminders, <span className="text-AAsecondary">payments</span>, marketing, and much more! Currently in
-                  the <span className="text-AAsecondary">Initiation phase</span>.
+                  the <span className="text-AAsecondary">Initiation phase</span>. */}
                 </p>
               </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              >
-                <span className="pr-4 z-10">Appointment</span>
-                <span className="pr-4 z-10">Management</span>
-                <span className="pr-4 z-10">Scheduling</span>
-                <span className="pr-4 z-10">Booking</span>
-              </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+                <a href="https://rsmmcsby.co.id" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
