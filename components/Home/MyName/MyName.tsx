@@ -81,7 +81,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         possess strong problem-solving skills and specialize in crafting
         exceptional <br className="2xl:block hidden" />
         digital experiences. My current area of focus is in the{" "}
-        <span className="text-AAsecondary">Javascript</span>, where I actively
+        <span className="text-AAsecondary">User Interface</span>, where I actively
         engage in developing <br className="2xl:block hidden" />
         and designing immersive{" "}
         {/* <span className="text-AAsecondary">web3 applications</span>. This

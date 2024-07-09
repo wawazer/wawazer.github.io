@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Flutter"],
-    ["Node.js", "TypeScript", "Framer Motion", "ExpressJS"],
+    ["Reactjs", "JavaScript (ES6+)", "Tailwind CSS", "Illustrator"],
+    ["Vue", "TypeScript", "Figma", "Angular"],
   ];
   return (
     <div
@@ -40,14 +40,13 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Muhammad Zen Wawazer, I consider myself a
+                Hello! My name is<span className="text-AAsecondary">Muhammad Zen Wawazer</span>, I consider myself a
                 detail-oriented, hardworking person who&apos;s willing to learn
-                at every step pg the way
-
+                at every step pg the way. {""}An enthusiastic and detail-oriented <span className="text-AAsecondary">UIUX & Frontend Developer</span> with proficient knowledge in HTML, CSS, JavaScript, React, Angular, and Vue as well as third-party libraries such as jQuery, Angular, and React. Seeking to utilize my technical skills and expertise to provide value to the employer and contribute to successful projects both today and in the future. Aiming to take on new challenges and utilize my coding and debugging skills for developing new features and enhance the overall user experience.
                 
               </span>
             </div>
-            <div className="font-Header ">
+            {/* <div className="font-Header ">
               <span className="text-gray-400 ">
                 Since pursuing my engineering degree, my career has taken me
                 through diverse industries, allowing me to refine my expertise
@@ -61,8 +60,8 @@ export default function AboutMe(props) {
                 , my passion for web3 and continuous learning drives me to make
                 a positive impact and advance technology.
               </span>
-            </div>
-            <div className="font-Header tracking-wide">
+            </div> */}
+            {/* <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at
                 <span className="text-AAsecondary"> a huge manufacturing company</span>,
@@ -73,11 +72,11 @@ export default function AboutMe(props) {
                 Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
                 <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
               </span>
-            </div>
+            </div> */}
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
-                Here are a few technologies I&apos;ve been working with recently
+                Here are a few technologies I&apos;ve been learning with recently
                 :
               </span>
             </div>

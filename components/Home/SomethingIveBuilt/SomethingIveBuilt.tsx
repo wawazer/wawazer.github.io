@@ -138,7 +138,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to contribution the development of <span className="text-AAsecondary">PTOS-M</span> an terminal operator in managing various types of cargo and related activities, from planning to operational activities.<br/>
+                  I had the opportunity to contribution the development of <span className="text-AAsecondary">PTOS-M</span> an terminal operator in managing various types of <span className="text-AAsecondary">cargo</span> and related activities, from planning to operational activities.<br/>
                   <span className="text-AAsecondary"> PTOS-M</span> has four main features, namely vessel planning, yard inventory, gate system, and dispatch system. These features are designed to improve effectiveness and efficiency in terminal management.{" "}
                   {/* <span className="text-AAsecondary"> smart contract</span> and{" "}
                   <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
@@ -172,7 +172,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/typing"}>
+              <Link href={"/genc"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -180,7 +180,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/genc.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -191,7 +191,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/genc.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -201,21 +201,18 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/typing"}>
+                <Link href={"https://genc.pelindo.co.id"} target={"_blank"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Speed Typing
+                    GENC
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This project aim to help you to improve your <span className="text-AAsecondary"> typing </span> by
-                  tracking your progress in <span className="text-AAsecondary"> each round</span> and give you a{" "}
-                  <span className="text-AAsecondary"> score</span> based on your typing speed and accuracy through a
-                  table of <span className="text-AAsecondary"> statistics</span>.
+                <span className="text-AAsecondary">Genc</span> is an early application of <span className="text-AAsecondary">PTOS-M</span>.  an terminal operator in managing various types of <span className="text-AAsecondary">cargo</span> and related activities, from planning to operational activities.
                 </p>
               </div>
-              <ul
+              {/* <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
@@ -223,10 +220,12 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Framer Motion</span>
                 <span className="pr-4 z-10">Tailwind CSS</span>
                 <span className="pr-4 z-10">TypeScript</span>
-              </ul>
+              </ul> */}
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
-                <ExternalLink url={"typing"} router={router} />
+                {/* <GithubIcon link="https://github.com/hktitof/Typing" /> */}
+                <a href="https://genc.pelindo.co.id" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                  </a>
               </div>
             </div>
           </div>
@@ -240,13 +239,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/userdatapuller"}>
+              <Link href={"https://dp3.pelindo.co.id/"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/dp3.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -257,7 +256,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/dp3.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -267,23 +266,24 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/userdatapuller"}>
+                <Link href={"/dp3"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    DP3 Pelindo
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This project allows you to understand how easy it is to identify and track your browser based on how
+                This project is a website for retirees of<span className="text-AAsecondary"> PT.Pelindo (Persero)</span> employees.
+                  {/* This project allows you to understand how easy it is to identify and track your browser based on how
                   it appears to websites. Such as your
                   <span className="text-AAsecondary"> location</span>,{" "}
                   <span className="text-AAsecondary">IP Address</span>,{" "}
                   <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                  with the help of cookies. */}
                 </p>
               </div>
-              <ul
+              {/* <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
@@ -292,10 +292,11 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Data collecting</span>
                 <span className="pr-4 z-10">IP Address</span>
                 <span className="pr-4 z-10">Location</span>
-              </ul>
+              </ul> */}
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
-                <ExternalLink url={"/userdatapuller"} router={router} />
+              <a href="https://dp3.pelindo.co.id/" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                  </a>
               </div>
             </div>
           </div>
