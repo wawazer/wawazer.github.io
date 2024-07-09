@@ -138,15 +138,14 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to lead the development of a token project, which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> smart contract</span> and{" "}
+                  I had the opportunity to contribution the development of <span className="text-AAsecondary">PTOS-M</span> an terminal operator in managing various types of cargo and related activities, from planning to operational activities.<br/>
+                  <span className="text-AAsecondary"> PTOS-M</span> has four main features, namely vessel planning, yard inventory, gate system, and dispatch system. These features are designed to improve effectiveness and efficiency in terminal management.{" "}
+                  {/* <span className="text-AAsecondary"> smart contract</span> and{" "}
                   <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale. */}
                 </p>
               </div>
-              <ul
+              {/* <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
@@ -155,10 +154,10 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Nextjs</span>
                 <span className="pr-4 z-10">Smart contract</span>
                 <span className="pr-4 z-10">Blockchain</span>
-              </ul>
+              </ul> */}
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
+                <a href="https://ptosm.pelindo.co.id" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
