@@ -128,7 +128,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-6/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portofolio-portrait-1.png"}
+                src={"/img/Portofolio-portrait11.png"}
                 className={"object-fit, rounded-lg"}
                 height={500}
                 alt={"My Image Not Found"}
