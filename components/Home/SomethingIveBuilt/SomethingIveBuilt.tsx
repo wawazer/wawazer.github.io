@@ -384,9 +384,9 @@ export default function SomethingIveBuilt() {
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
-              </a>
+              </a> 
 
-              <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/phc.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -397,7 +397,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/phc.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -407,21 +407,19 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
+                <a href="" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Call Center Management System
+                    Assets & Product Design
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  A <span className="text-AAsecondary">JavaFX call center management system</span> project it is used
-                  for receiving or transmitting a large volume of enquiries between the agent and the customer,it
-                  handles the communication between agents & clients it can be used for the both side client & agent
-                  side to handle the messages and issues.
+                         Not only application development, I am also able to work on creating digital assets and products for the company needs. 
+                  Among them, <span className="text-AAsecondary">Logo, company profile, brochure, flyer, Icon Assets, </span>and others.
                 </p>
               </div>
-              <ul
+              {/* <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
@@ -429,10 +427,10 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Java Concurrency</span>
                 <span className="pr-4 z-10">MultiThreading</span>
                 <span className="pr-4 z-10">MySQL</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              </ul> */}
+              {/* <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/hktitof/CallCenter" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

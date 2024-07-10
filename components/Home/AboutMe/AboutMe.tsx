@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Reactjs", "JavaScript (ES6+)", "Tailwind CSS", "Illustrator"],
-    ["Vue", "TypeScript", "Figma", "Angular"],
+    ["Reactjs", "JavaScript (ES6+)", "Tailwind CSS", "Illustrator", "After Effect"],
+    ["Vue", "TypeScript", "Figma", "Angular", "Photoshop"],
   ];
   return (
     <div
@@ -42,7 +42,7 @@ export default function AboutMe(props) {
               <span className="text-gray-400 ">
                 Hello! My name is<span className="text-AAsecondary">Muhammad Zen Wawazer</span>, I consider myself a
                 detail-oriented, hardworking person who&apos;s willing to learn
-                at every step pg the way. {""}An enthusiastic and detail-oriented <span className="text-AAsecondary">UIUX & Frontend Developer</span> with proficient knowledge in HTML, CSS, JavaScript, React, Angular, and Vue as well as third-party libraries such as jQuery, Angular, and React. Seeking to utilize my technical skills and expertise to provide value to the employer and contribute to successful projects both today and in the future. Aiming to take on new challenges and utilize my coding and debugging skills for developing new features and enhance the overall user experience.
+                at every step pg the way. {""} Seeking to utilize my technical skills and expertise to provide value to the employer and contribute to successful projects both today and in the future. Aiming to take on new challenges and utilize my skills for developing new features and enhance the overall user experience.
                 
               </span>
             </div>
