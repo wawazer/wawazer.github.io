@@ -73,7 +73,7 @@ export default function Home() {
   const meta = {
     title: "Muhammad Zen Wawazer",
     description: `UI/UX | Technical Content Writer | Frontend Dev`,
-    image: "/titofCercle.png",
+    image: "/DSC00402-2.jpg",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
